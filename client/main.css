@@ -1,8 +1,78 @@
 body {
-  padding: 10px;
-  padding-top: 100px;
+  background-color: #009D44;
   font-family: sans-serif;
   text-align: center;
+  font: 400 15px Lato;
+  line-height: 1.8;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("images/beach-house.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("images/map.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-danger:hover {
+  color: #009D44;
+  background-color: #fff;
+  border-color:rgb(11, 12, 12);
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}  
+.jumbotron {
+  background-color: #009D44;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.logo-small {
+  color: #009D44;
+  font-size: 50px;
+}
+.logo {
+  color: #009D44;
+  font-size: 200px;
 }
 
 .navbar {
@@ -44,12 +114,13 @@ body {
   font-weight: 400;
   font-style: italic;
   margin: 70px 0;
+  colo:#009D44;
 }
 .item span {
   font-style: normal;
 }
 .panel {
-  border: 1px solid #f4511e; 
+  border: 1px solid #009D44; 
   border-radius:0 !important;
   transition: box-shadow 0.5s;
 }
@@ -94,4 +165,5 @@ body {
 .footer{
   color: #009D44;
   font-size: 1.5em;
+  background-color: #fff;
 }

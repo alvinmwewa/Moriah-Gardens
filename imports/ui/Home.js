@@ -6,8 +6,19 @@ class Home extends Component {
 	render(){
 	return (
 		<div>
-			<h1>Home Page</h1>
-			<h2>What our customers say</h2>
+      <div class="jumbotron text-center">
+  <h1>Moriah Gardens</h1> 
+  <p>better, afordable, safe and comform .....we gat you fox</p> 
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required/>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="parallax">
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     {/* <!-- Indicators --> */}
     <ol class="carousel-indicators">
@@ -43,9 +54,39 @@ class Home extends Component {
       <span class="sr-only">Next</span>
     </a>
   </div>
+  </div>
   
   {/* <!-- Container (Contact Section) --> */}
 <div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+    <img src="images/img3.png" class="img-circle" width="304" height="304"/> 
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required/>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required/>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br/>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Image of location/map --> */}
+<div class="parallax2"></div>
+
+ {/* <!-- Container (Contact Section) --> */}
+ <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -72,9 +113,6 @@ class Home extends Component {
     </div>
   </div>
 </div>
-
-{/* <!-- Image of location/map --> */}
-<img src="images/beach-house.jpeg" />
 <Footer/>
 </div>
 
