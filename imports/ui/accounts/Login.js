@@ -5,7 +5,7 @@ import {meteor} from 'meteor/meteor';
 class Login extends React.Component{
 	render(){
 		return(
-			<div>
+			<div id="login">
 				<h2>Application Forms </h2>
 			</div>
 		);

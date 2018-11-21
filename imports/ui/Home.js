@@ -58,28 +58,40 @@ class Home extends Component {
   
   {/* <!-- Container (Contact Section) --> */}
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-    <img src="images/img3.png" class="img-circle" width="304" height="304"/> 
+    <img src="images/img3.png" class="img-circle" width="354" height="354"/> 
     </div>
     <div class="col-sm-7 slideanim">
       <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required/>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required/>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br/>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
+        <h3 id="green">MORIAH GARDENS-GANERTION</h3>
+        <h3 id="green">MIXED-USE devolopment</h3>
+        <p id="orange">The 1008 apartment units form phase one of the devolopment
+          which willlater grow with various expansions of the following:
+          <ul id="orange">
+            <li>Residential Apartment-Phase one</li>
+            <li>Free-standing Residential Units</li>
+            <li>Shopping Center</li>
+            <li>Hotels</li>
+            <li>Schools</li>
+            <li>Office Park</li>
+            <li>Police Station</li>
+            <li>Health Centers</li>
+            <li>Recreational Areas</li>
+          </ul>
+        </p>
       </div>
     </div>
+    <p id="orange">The devolopment will have a relatively large
+    catchment area.This includes surrounding towns Kitwe (11.6km), Mufulira (27.5km) 
+    , Chingola (45.8km), Kalulushi (24.4km) and Chambishi (23.9km). The
+    Chamdishi Multi Facility Economic Zone is 14km away. </p>
   </div>
+</div>
+<div id="body2">
+  <h2 id="green"><i>This is a first class devolopment</i></h2>
+  <h2 id="green"><i>an outstanding place to live in the Copperbelt</i></h2>
+  <img src="images/z-index"/>
 </div>
 
 {/* <!-- Image of location/map --> */}
@@ -87,13 +99,17 @@ class Home extends Component {
 
  {/* <!-- Container (Contact Section) --> */}
  <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+  <h2 class="text-center"><span id="green">CONTACT</span></h2>
   <div class="row">
     <div class="col-sm-5">
+    <div id="orange">
       <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Lusaka, Zambia</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +260 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> moriahgardens@gmail.com</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Kitwe, Zambia</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +260 1515151515</p>
+    </div>
     </div>
     <div class="col-sm-7 slideanim">
       <div class="row">

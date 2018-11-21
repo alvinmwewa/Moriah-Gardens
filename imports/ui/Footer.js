@@ -6,98 +6,37 @@ class Footer extends Component{
 		return(
 			<div className="footer">
 			<footer class="page-footer font-small ">
-
-    <div class="container text-center text-md-left">
-
-      <div class="row">
-
-        <div class="col-md-4 mx-auto">
-
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
-
-        </div>
-        
-
-        <hr class="clearfix w-100 d-md-none"/>
-
-        
-        <div class="col-md-2 mx-auto">
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
-
-        </div>
-        
-
-        <hr class="clearfix w-100 d-md-none"/>
-
-        
-        <div class="col-md-2 mx-auto">
-
-          
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
-
-        </div>
-        <hr class="clearfix w-100 d-md-none"/>
-        <div class="col-md-2 mx-auto">
-
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
+      <div className="container">
+			    <div className="row">
+			      <div className="col l6 s12">
+				<h2 className="white-text">Moriah Gardens</h2>
+				<p id="orange">
+					We are a property app that allows users to
+					advertise available land and homes for rent or sell (agent free),
+					at the same time it also allows user to look for land and homes as
+					well.
+				</p>
+			      </div>
+			      <div className="col l4 offset-l2 s12">
+				<h2 id="green" >Navigation</h2>
+				<ul>
+				  <li><a  id="orange" href='/about'>About</a></li>
+				  <li><a id="orange" href='/contact'>Contact</a></li>
+				  <li><a id="orange" href='/login'>Apply</a></li>
+				  <li><a id="orange" href='/signup'>Sign Up</a></li>
+				</ul>
+			      </div>
+			    </div>
+			  </div>
     <hr/>
     <ul class="list-unstyled list-inline text-center py-2">
       <li class="list-inline-item">
-        <h5 class="mb-1">Register for free</h5>
+      <div id="orange">
+        <h3 class="mb-1">Register for free</h3>
+        </div>
       </li>
       <li class="list-inline-item">
-        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+        <a href="/login" class="btn btn-danger btn-rounded">Sign up!</a>
       </li>
     </ul>
     

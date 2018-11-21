@@ -6,6 +6,22 @@ body {
   line-height: 1.8;
 }
 
+#body2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+  
+}
+
+#green{
+  color: #009D44;
+}
+
+#orange{
+  color:#ff6600;
+}
 .parallax {
   /* The image used */
   background-image: url("images/beach-house.jpeg");
@@ -167,3 +183,5 @@ h4 {
   font-size: 1.5em;
   background-color: #fff;
 }
+
+/* login page css */
