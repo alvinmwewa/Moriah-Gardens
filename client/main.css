@@ -1,5 +1,5 @@
 body {
-  
+
   font-family: sans-serif;
   text-align: center;
   font: 400 15px Lato;
@@ -12,13 +12,15 @@ body {
   text-align: center;
   font-family: sans-serif;
   background-color: white;
-  
+
 }
 
 #green{
   color: #009D44;
 }
-
+#blue{
+  color: blue;
+}
 #orange{
   color:#ff6600;
 }
@@ -27,7 +29,7 @@ body {
   background-image: url("images/beach-house.jpeg");
 
   /* Set a specific height */
-  min-height: 500px; 
+  min-height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -41,7 +43,7 @@ body {
   background-image: url("images/map.jpg");
 
   /* Set a specific height */
-  min-height: 500px; 
+  min-height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -69,7 +71,7 @@ h4 {
   color: #303030;
   font-weight: 400;
   margin-bottom: 30px;
-}  
+}
 .jumbotron {
   background-color: #009D44;
   color: #fff;
@@ -136,7 +138,7 @@ h4 {
   font-style: normal;
 }
 .panel {
-  border: 1px solid #009D44; 
+  border: 1px solid #009D44;
   border-radius:0 !important;
   transition: box-shadow 0.5s;
 }
@@ -173,7 +175,7 @@ h4 {
   background-color: #f4511e;
   color: #fff;
 }
- 
+
 #br{
   border-bottom: 3px solid #009D44;
 }
@@ -221,12 +223,12 @@ h4 {
 }
 
 #divindiv{
-  
+
   padding-bottom:50px;
   padding-left: 50px;
   padding-right: 50px;
   background-color: #060606b3;
   color: white;
-  
+
 }
 /* login page css */

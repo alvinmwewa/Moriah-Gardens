@@ -17,22 +17,21 @@ class Navbar extends Component{
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Logo</a>
+      <a class="navbar-brand"href="/">Home</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/about">ABOUT</a></li>
         <li><a href="#services">SERVICES</a></li>
         <li><a href="/login">APPLY NOW...</a></li>
-        <li><a href="#pricing">PRICING</a></li>
         <li><a href="/contact">CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
-		  
+
 		)
 	}
 }
