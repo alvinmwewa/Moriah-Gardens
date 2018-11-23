@@ -19,14 +19,15 @@ class Navbar extends Component{
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="/">Logo</a>
+      <a class="navbar-brand" href="/"><img src="images/432tree.jpeg" class="img-circle"
+			  	id='nav-pic'width="42" height="42"/>Home</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
+        <li><a href="signup">SERVICES</a></li>
         <li><a href="/login">APPLY NOW...</a></li>
-        <li><a href="#pricing">PRICING</a></li>
+        {/* <li><a href="#pricing">PRICING</a></li> */}
         <li><a href="/contact">CONTACT</a></li>
       </ul>
     </div>

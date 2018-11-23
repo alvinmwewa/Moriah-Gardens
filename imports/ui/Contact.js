@@ -9,7 +9,7 @@ class Contact extends Component {
 		return (
 	
 	
-		<div>
+		<div id="login">
 			<h2>Contact Us</h2>
 							
 			
