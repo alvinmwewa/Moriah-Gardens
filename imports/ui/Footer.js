@@ -7,43 +7,30 @@ class Footer extends Component{
 			<div className="footer">
 			<footer class="page-footer font-small ">
       <div className="container">
-			    <div className="row">
-			      <div className="col l6 s12">
-				<h2 className="white-text">Moriah Gardens</h2>
-				<p id="orange">
-					We are a property app that allows users to
-					advertise available land and homes for rent or sell (agent free),
-					at the same time it also allows user to look for land and homes as
-					well.
+
+<div class="row">
+    <div class="col-sm-5">
+    <h2 className="white-text">Moriah Gardens</h2>
+				<p id="blue">
+					Become a part of the growing development in Kitwe as 
+          we provide the best yet affoldable comfort of your dreams.
 				</p>
-			      </div>
-			      <div className="col l4 offset-l2 s12">
-				<h2 id="green" >Navigation</h2>
-				<ul>
-				  <li><a  id="orange" href='/about'>About</a></li>
-				  <li><a id="orange" href='/contact'>Contact</a></li>
-				  <li><a id="orange" href='/login'>Apply</a></li>
-				  <li><a id="orange" href='/signup'>Sign Up</a></li>
-				</ul>
-			      </div>
-			    </div>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+      <h2 id="green" >Navigation</h2>
+	
+  <p><a id="orange" href='/login'>- Apply</a></p>
+  <p><a  id="orange" href='/about'>- About</a></p>
+  <p><a id="orange" href='/contact'>- Contact</a></p>
+  <p><a id="orange" href='/signup'>- Services</a></p>
+      </div>
+    </div>
+  </div>
 			  </div>
-    <hr/>
-    <ul class="list-unstyled list-inline text-center py-2">
-      <li class="list-inline-item">
-      <div id="orange">
-        <h3 class="mb-1">Register for free</h3>
-        </div>
-      </li>
-      <li class="list-inline-item">
-        <a href="/login" class="btn btn-danger btn-rounded">Sign up!</a>
-      </li>
-    </ul>
-    
 
-    <hr/>
 
-    
+
     <ul class="list-unstyled list-inline text-center">
       <li class="list-inline-item">
         <a class="btn-floating btn-fb mx-1">
@@ -73,7 +60,7 @@ class Footer extends Component{
     </ul>
 <div id="br"> </div>
     <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="/"> Moriah Gardens</a>
+      <a  id="green" href="/"> Moriah Gardens</a>
     </div>
 
 

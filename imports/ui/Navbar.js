@@ -17,10 +17,11 @@ class Navbar extends Component{
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"><img src="images/432tree.jpeg" class="img-circle"
-			  	id='nav-pic'width="42" height="42"/>Home</a>
+      <h5><a  id="icon" href="/">
+          <span class="glyphicon glyphicon-home"></span> 
+        Home</a></h5>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -33,7 +34,7 @@ class Navbar extends Component{
     </div>
   </div>
 </nav>
-		  
+
 		)
 	}
 }

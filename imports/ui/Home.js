@@ -7,8 +7,8 @@ class Home extends Component {
 	return (
 		<div>
       <div class="jumbotron text-center">
-  <h1>Moriah Gardens</h1> 
-  <p>better, afordable, safe and comform .....we gat you fox</p> 
+  <h1>Moriah Gardens</h1>
+  <p>"Providing Affordable Luxury Houses"</p>
   <form>
     <div class="input-group">
       <input type="email" class="form-control" size="50" placeholder="Email Address" required/>
@@ -55,20 +55,19 @@ class Home extends Component {
     </a>
   </div> */}
   </div>
-  
+
   {/* <!-- Container (Contact Section) --> */}
 <div id="contact" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-5">
-    <img src="images/img3.png" class="img-circle" width="354" height="354"/> 
+    <img src="images/img3.png" class="img-circle" width="354" height="354"/>
     </div>
     <div class="col-sm-7 slideanim">
       <div class="row">
-        <h3 id="green">MORIAH GARDENS-GANERTION</h3>
         <h3 id="green">MIXED-USE devolopment</h3>
-        <p id="orange">The 1008 apartment units form phase one of the devolopment
-          which willlater grow with various expansions of the following:
-          <ul id="orange">
+        <p id="orange" align="block">The 1008 apartment units form phase one of the devolopment.
+          Which willlater grow with various expansions of the following:
+          <ul id="orange" align="left">
             <li>Residential Apartment-Phase one</li>
             <li>Free-standing Residential Units</li>
             <li>Shopping Center</li>
@@ -82,9 +81,10 @@ class Home extends Component {
         </p>
       </div>
     </div>
-    <p id="orange">The devolopment will have a relatively large
-    catchment area.This includes surrounding towns Kitwe (11.6km), Mufulira (27.5km) 
-    , Chingola (45.8km), Kalulushi (24.4km) and Chambishi (23.9km). The
+    <p id="blue" align="block">The devolopment will have a relatively large
+    catchment area.
+		This includes surrounding towns like Kitwe (11.6km), Mufulira (27.5km)
+    Chingola (45.8km), Kalulushi (24.4km) and Chambishi (23.9km). The
     Chamdishi Multi Facility Economic Zone is 14km away. </p>
   </div>
 </div>
@@ -102,13 +102,12 @@ class Home extends Component {
   <h2 class="text-center"><span id="green">CONTACT</span></h2>
   <div class="row">
     <div class="col-sm-5">
-    <div id="orange">
+    <div id="blue">
       <p>Contact us and we'll get back to you within 24 hours.</p>
+			<p><span class="glyphicon glyphicon-envelope"></span> chiwalamwape@gmail.com</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +260 966 999 660</p>
+			<p><span class="glyphicon glyphicon-phone"></span> +260 954 605 665</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> Lusaka, Zambia</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +260 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> moriahgardens@gmail.com</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Kitwe, Zambia</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +260 1515151515</p>
     </div>
     </div>
     <div class="col-sm-7 slideanim">
@@ -138,5 +137,3 @@ class Home extends Component {
 }
 
 export default Home
-
-
