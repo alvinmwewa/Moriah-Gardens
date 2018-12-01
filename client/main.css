@@ -248,3 +248,35 @@ h4 {
   background-color: white;
   color: #009D44;
 }
+.row{
+color: #241570;
+}
+.card{
+  background-color: white;
+  text-align: left;
+}
+h6{
+  font-size: 24px;
+  text-align: left;
+  color: black;
+  background-color: grey;
+  padding: 8px;
+}
+.form{
+  align: left;
+}
+.col-sm-1{
+  padding: 1%;
+}
+.col-sm-2{
+  padding: 1%;
+}
+.col-sm-4{
+  padding: 1%;
+}
+.col-sm-3{
+  padding: 1%;
+}
+.col-sm-5{
+  padding: 1%;
+}
