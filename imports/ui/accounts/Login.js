@@ -114,13 +114,35 @@ class Login extends React.Component{
 								<div class="col-sm-3"><input class="form-control" id="Period-Address-year" name="Period-address-years" placeholder="Years" type="text" required/></div>
 								<div class="col-sm-3"><input class="form-control" id="Period-Address-months" name="Period-address-months" placeholder="Months" type="text" required/></div>
 								</div>
+								<div class="row">
+								<div class="col-sm-5"><lebal>Is your postal address the same as your residential address :</lebal></div>
+								<div class="col-sm-1">
+									<select class="form-control" id="residential-post">
+										<option>No</option>
+										<option>Yes</option>
+									</select>
+								</div>
+								<div class="col-sm-2"><lebal>Postal Address :</lebal></div>
+								<div class="col-sm-4"><input class="form-control" id="Postal-address" name="Postal-address" placeholder="Postal Address" type="text"/></div>
+								</div>
+								<div class="row">
+								<div class="col-sm-3"><lebal>Type of occupation at current address :</lebal></div>
+								<div class="col-sm-2">
+									<select class="form-control" id="residential-type">
+										<option>Owner</option>
+										<option>Renting</option>
+										<option>Boarding</option>
+										<option>Family Residence</option>
+									</select>
+								</div>
+								</div>
 								<h6>4. BANK DETAILS</h6>
 								<h6>5. EMPLOYMENT DETAILS (Applicable to people with other form of employment)</h6>
 								<h6>6. PAYMENT DETAILS</h6>
 								<h6>7. UNIT TYPE</h6>
 								<h6>8. INCOME DETAILS</h6>
   						</div>
-							<p>All applications attract a non refundable fee of ZMK 10 000.00. ALL PAYMENTS TO BE DONE BY BANK DEPOSIT. NO CASH WILL BE ACCEPTED.</p>
+							<p>All applications attract a non refundable fee of ZMK 5,000.00. ALL PAYMENTS TO BE DONE BY BANK DEPOSIT. NO CASH WILL BE ACCEPTED.</p>
 							<div>
   							<label><input type="checkbox" required/>  I Agree</label>
 							</div>
