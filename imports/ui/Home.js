@@ -1,25 +1,24 @@
-import React, {Component } from 'react';
+import React, { Component } from 'react';
 import Footer from './Footer.js';
 
 class Home extends Component {
-
-	render(){
-	return (
-		<div>
-      <div class="jumbotron text-center">
-  <h1>Moriah Gardens</h1>
-  <p>"Providing Affordable Luxury Houses"</p>
-  <form>
-    <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required/>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">Subscribe</button>
-      </div>
-    </div>
-  </form>
-</div>
-<div class="parallax">
-  {/* <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  render() {
+    return (
+      <div>
+        <div class="jumbotron text-center">
+          <h1>Moriah Gardens</h1>
+          <p>"Providing Affordable Luxury Houses"</p>
+          <form>
+            <div class="input-group">
+              <input type="email" class="form-control" size="50" placeholder="Email Address" required />
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-danger">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="parallax">
+          {/* <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     /* <!-- Indicators --> */
     // <ol class="carousel-indicators">
     //   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -54,86 +53,83 @@ class Home extends Component {
       <span class="sr-only">Next</span>
     </a>
   </div> */}
-  </div>
-
-  {/* <!-- Container (Contact Section) --> */}
-<div id="contact" class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-5">
-    <img src="images/img3.png" class="img-circle" width="354" height="354"/>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <h3 id="green">MIXED-USE devolopment</h3>
-        <p id="orange" align="block">The 1008 apartment units form phase one of the devolopment.
-          Which willlater grow with various expansions of the following:
-          <ul id="orange" align="left">
-            <li>Residential Apartment-Phase one</li>
-            <li>Free-standing Residential Units</li>
-            <li>Shopping Center</li>
-            <li>Hotels</li>
-            <li>Schools</li>
-            <li>Office Park</li>
-            <li>Police Station</li>
-            <li>Health Centers</li>
-            <li>Recreational Areas</li>
-          </ul>
-        </p>
-      </div>
-    </div>
-    <p id="blue" align="block">The devolopment will have a relatively large
-    catchment area.
-		This includes surrounding towns like Kitwe (11.6km), Mufulira (27.5km)
-    Chingola (45.8km), Kalulushi (24.4km) and Chambishi (23.9km). The
-    Chamdishi Multi Facility Economic Zone is 14km away. </p>
-  </div>
-</div>
-<div id="body2">
-  <h2 id="green"><i>This is a first class devolopment</i></h2>
-  <h2 id="green"><i>an outstanding place to live in the Copperbelt</i></h2>
-  <img src="images/z-index"/>
-</div>
-
-{/* <!-- Image of location/map --> */}
-<div class="parallax2"></div>
-
- {/* <!-- Container (Contact Section) --> */}
- <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center"><span id="green">CONTACT</span></h2>
-  <div class="row">
-    <div class="col-sm-5">
-    <div id="blue">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-			<p><span class="glyphicon glyphicon-envelope"></span> chiwalamwape@gmail.com</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +260 966 999 660</p>
-			<p><span class="glyphicon glyphicon-phone"></span> +260 954 605 665</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Lusaka, Zambia</p>
-    </div>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required/>
         </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required/>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br/>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<Footer/>
-</div>
 
+        {/* <!-- Container (Contact Section) --> */}
+        <div id="contact" class="container-fluid bg-grey">
+          <div class="row">
+            <div class="col-sm-5">
+              <img src="images/img3.png" class="img-circle" width="354" height="354" />
+            </div>
+            <div class="col-sm-7 slideanim">
+              <div class="row">
+                <h3 id="green">MIXED-USE devolopment</h3>
+                <p id="orange" align="block">The 1008 apartment units form phase one of the devolopment.
+                  Which willlater grow with various expansions of the following:
+                  <ul id="orange" align="left">
+                    <li>Residential Apartment-Phase one</li>
+                    <li>Free-standing Residential Units</li>
+                    <li>Shopping Center</li>
+                    <li>Hotels</li>
+                    <li>Schools</li>
+                    <li>Office Park</li>
+                    <li>Police Station</li>
+                    <li>Health Centers</li>
+                    <li>Recreational Areas</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <p id="blue" align="block">The devolopment will have a relatively large
+              catchment area.
+              This includes surrounding towns like Kitwe (11.6km), Mufulira (27.5km)
+              Chingola (45.8km), Kalulushi (24.4km) and Chambishi (23.9km). The
+              Chamdishi Multi Facility Economic Zone is 14km away. </p>
+          </div>
+        </div>
+        <div id="body2">
+          <h2 id="green"><i>This is a first class devolopment</i></h2>
+          <h2 id="green"><i>an outstanding place to live in the Copperbelt</i></h2>
+          <img src="images/z-index" />
+        </div>
 
-	)
-	}
+        {/* <!-- Image of location/map --> */}
+        <div class="parallax2"></div>
+        {/* <!-- Container (Contact Section) --> */}
+        <div id="contact" class="container-fluid bg-grey">
+          <h2 class="text-center"><span id="green">CONTACT</span></h2>
+          <div class="row">
+            <div class="col-sm-5">
+              <div id="blue">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> chiwalamwape@gmail.com</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +260 966 999 660</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +260 954 605 665</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Lusaka, Zambia</p>
+              </div>
+            </div>
+            <div class="col-sm-7 slideanim">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+                </div>
+              </div>
+              <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br />
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default Home
